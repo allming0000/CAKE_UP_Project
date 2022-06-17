@@ -397,8 +397,8 @@ public class CakeActivity extends TabActivity {
                 @Override
                 public void onClick(View v) {
                     AlertDialog.Builder dlg = new AlertDialog.Builder(CakeActivity.this);
-                    dlg.setTitle("뚜레쥬르 : 해피해피 스노우맨");
-                    dlg.setMessage("화이트시트 사이 캬라멜 크림, 초코 크런치 크림이 달콤하게 어우러진 귀여운 해피해피 스노우맨 케이크입니다.");
+                    dlg.setTitle("뚜레쥬르 : 초당 옥수수 케이크");
+                    dlg.setMessage("옥수수 시트 사이 고소한 옥수수 크림과 부드러운 순우유 크림이 샌드된 생크림 케이크입니다.");
                     dlg.setPositiveButton("확인", (dialog, which) -> {
                     });
                     dlg.show();
@@ -421,8 +421,8 @@ public class CakeActivity extends TabActivity {
                 @Override
                 public void onClick(View v) {
                     AlertDialog.Builder dlg = new AlertDialog.Builder(CakeActivity.this);
-                    dlg.setTitle("뚜레쥬르 : 파티 싼타 케이크");
-                    dlg.setMessage("두 가지 초콜릿 시트 사이에 고소한 헤이즐넛 크림이 샌드되고 초코 크런치로 재밌는 식감을 살린 파티 싼타 케이크입니다.");
+                    dlg.setTitle("뚜레쥬르 : 에리얼 루비 복숭아");
+                    dlg.setMessage("새콤달콤 루비복숭아 퓨레와 원물이 부드러운 마스카포네가 잘 어우러진 시원한 에리얼의 루비 복숭아 무스 케이크입니다.");
                     dlg.setPositiveButton("확인", (dialog, which) -> {
                     });
                     dlg.show();
@@ -433,8 +433,8 @@ public class CakeActivity extends TabActivity {
                 @Override
                 public void onClick(View v) {
                     AlertDialog.Builder dlg = new AlertDialog.Builder(CakeActivity.this);
-                    dlg.setTitle("뚜레쥬르 : 힙스터 루돌프 케이크");
-                    dlg.setMessage("초코시트, 초코크림 사이에 초코 크런치를 샌드한 크리스마스 파티의 주인공 힙스터 루돌프 케이크입니다.");
+                    dlg.setTitle("뚜레쥬르 : 쟈스민프린세스 샤인머스켓");
+                    dlg.setMessage("상큼한 라임을 넣은 새콤달콤 샤인머스캣 무스와 톡톡 씹히는 나타드 코코가 들어간 시원한 자스민 프린세스의 샤인머스캣 무스 케이크입니다.");
                     dlg.setPositiveButton("확인", (dialog, which) -> {
                     });
                     dlg.show();
