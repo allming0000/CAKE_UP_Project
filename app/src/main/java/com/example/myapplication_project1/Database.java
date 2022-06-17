@@ -29,6 +29,7 @@ public class Database {
         sql = "SELECT img, name, price FROM" + mDBopenHelper.DB_Table_Favorite + " WHERE code = " + "'" + code + "'";
         db.execSQL(sql);
 
+
     }
 
 }
