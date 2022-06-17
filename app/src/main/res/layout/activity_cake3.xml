@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cake3"
+    android:orientation="vertical"
+    tools:context=".Cake3Activity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEST SELLER"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/Two_info9" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twosome9"
+                android:text="스트로베리 초콜릿 생크림"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35000원"
+                android:id="@+id/twosome_price9"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/star_info5" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="슈크림 트리 바움쿠헨"
+                android:id="@+id/starbucks5"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="43000원"
+                android:id="@+id/starbucks_price5"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/paris_info1" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="메리크리스마스 치즈"
+                android:id="@+id/paris1"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28000원"
+                android:id="@+id/paris_price1"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/tous_info5" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="크리스마스 브라우니 쿠키 리스"
+                android:id="@+id/tous5"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29000원"
+                android:id="@+id/tous_price5"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/baskin_info3" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="파티 위드 해피박스"
+                android:id="@+id/baskin3"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31000원"
+                android:id="@+id/baskin_price3"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/hotel_info1" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <CheckBox
+                android:id="@+id/hotel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="밀레니엄 힐튼 서울 : 화이트 시폰 트리 케이크" />
+
+            <TextView
+                android:id="@+id/hotel_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="50000원"
+                android:textColor="#f33333" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/hotel_info3" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="웨스트 조선 : Happy Pine Tree Cake"
+                android:id="@+id/hotel3"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99000원"
+                android:id="@+id/hotel_price3"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/hotel_info5" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="파라다이스 시티 인천 : 딸기 트리"
+                android:id="@+id/hotel5"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="83000원"
+                android:id="@+id/hotel_price5"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="설명"
+                android:textSize="4pt"
+                android:id="@+id/hotel_info10" />
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <CheckBox
+                android:id="@+id/hotel10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="jw 메리어트 동대문 : 블랙 포레스트 케이크"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="70000원"
+                android:id="@+id/hotel_price10"
+                android:textColor="#f33333"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

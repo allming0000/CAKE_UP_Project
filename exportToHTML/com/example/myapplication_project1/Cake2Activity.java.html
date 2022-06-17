@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Cake2Activity.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #0033b3;}
+.s1 { color: #080808;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Cake2Activity.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com.example.myapplication_project1;</span>
+
+<span class="s0">import </span><span class="s1">androidx.appcompat.app.AppCompatActivity;</span>
+
+<span class="s0">import </span><span class="s1">android.os.Bundle;</span>
+<span class="s0">import </span><span class="s1">android.view.View;</span>
+<span class="s0">import </span><span class="s1">android.widget.Button;</span>
+<span class="s0">import </span><span class="s1">android.widget.LinearLayout;</span>
+
+
+<span class="s0">public class </span><span class="s1">Cake2Activity </span><span class="s0">extends </span><span class="s1">AppCompatActivity{</span>
+
+    <span class="s1">View Page1, Page2;</span>
+
+    <span class="s1">@Override</span>
+    <span class="s0">protected void </span><span class="s1">onCreate(Bundle savedInstanceState) {</span>
+        <span class="s0">super</span><span class="s1">.onCreate(savedInstanceState);</span>
+        <span class="s1">setContentView(R.layout.activity_cake2);</span>
+
+        <span class="s1">Page1 = findViewById(R.id.potatoPage);</span>
+        <span class="s1">Page2 = findViewById(R.id.chocoPage);</span>
+
+
+       <span class="s1">findViewById(R.id.potato).setOnClickListener(mClickListener);</span>
+       <span class="s1">findViewById(R.id.choco).setOnClickListener(mClickListener);</span>
+
+
+    <span class="s1">}</span>
+
+    <span class="s1">Button.OnClickListener mClickListener = </span><span class="s0">new </span><span class="s1">View.OnClickListener() {</span>
+
+        <span class="s1">@Override</span>
+        <span class="s0">public void </span><span class="s1">onClick(View v) {</span>
+            <span class="s1">Page1.setVisibility(View.INVISIBLE);</span>
+            <span class="s1">Page2.setVisibility(View.INVISIBLE);</span>
+
+            <span class="s0">switch </span><span class="s1">(v.getId()){</span>
+                <span class="s0">case </span><span class="s1">R.id.potato:</span>
+                    <span class="s1">Page1.setVisibility(View.VISIBLE);</span>
+                    <span class="s0">break</span><span class="s1">;</span>
+                <span class="s0">case </span><span class="s1">R.id.choco:</span>
+                    <span class="s1">Page2.setVisibility(View.VISIBLE);</span>
+                    <span class="s0">break</span><span class="s1">;</span>
+            <span class="s1">}</span>
+        <span class="s1">}</span>
+    <span class="s1">};</span>
+
+
+
+<span class="s1">}</span>
+
+</pre>
+</body>
+</html>

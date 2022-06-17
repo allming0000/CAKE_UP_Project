@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cake2"
+    android:weightSum="2560"
+    android:orientation="vertical"
+    tools:context=".Cake2Activity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+        <Button
+            android:id="@+id/potato"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textSize="12sp"
+            android:text="고구마,밤"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <Button
+            android:id="@+id/choco"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textSize="12sp"
+            android:text="초코"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <Button
+            android:id="@+id/tiramisu"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textSize="12sp"
+            android:text="티라미수"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+        <Button
+            android:id="@+id/redvelvet"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textSize="12sp"
+            android:text="레드벨벳"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+        <Button
+            android:id="@+id/chease"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textSize="12sp"
+            android:text="치즈"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+        <Button
+            android:id="@+id/fruit"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textSize="12sp"
+            android:text="과일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+        <Button
+            android:id="@+id/special"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textSize="12sp"
+            android:text="스페셜"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    </GridLayout>
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+           <include
+               layout="@layout/activity_potato"
+               android:id="@+id/potatoPage"/>
+
+
+            <include
+                layout="@layout/activity_choco"
+                android:visibility="invisible"
+                android:id="@+id/chocoPage"/>
+
+
+    </FrameLayout>
+</LinearLayout>

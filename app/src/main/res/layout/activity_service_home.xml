@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".ServiceHomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="홈 페이지로 이동하기"
+            android:textSize="10pt"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/twosome"
+            android:text="투썸 플레이스(TwoSome Place)"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/paris"
+            android:text="파리 바게트"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/star"
+            android:text="스타벅스"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tous"
+            android:text="뚜레쥬르"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/beskin"
+            android:text="베스킨라빈스"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hotel_home1"
+            android:text="밀레니엄 힐튼 서울"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hotel_home2"
+            android:text="웨스트 조선"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hotel_home3"
+            android:text="파라다이스 시티 인천"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hotel_home4"
+            android:text="포시즌스 서울"
+            android:textSize="8pt" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/hotel_home5"
+            android:text="jw 메리어트 동대문"
+            android:textSize="8pt" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
